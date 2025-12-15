@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 18.0.0, 2025-12-15T16:13:29. -->
+<!-- Written by QtCreator 18.0.0, 2025-12-15T17:57:51. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -102,8 +102,8 @@
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\Qt_Pro\ToolTip\build\Desktop_Qt_6_10_1_MinGW_64_bit-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/Qt_Pro/ToolTip/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\Qt_Pro\stylesheel\build\Desktop_Qt_6_10_1_MinGW_64_bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/Qt_Pro/stylesheel/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -166,7 +166,7 @@
      <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:</value>
-     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/Qt_Pro/ToolTip/ToolTip.pro</value>
+     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/Qt_Pro/stylesheel/stylesheel.pro</value>
      <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
      <value type="QString" key="ProjectExplorer.RunConfiguration.UniqueId"></value>
      <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -204,7 +204,7 @@
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/Qt_Pro/ToolTip/ToolTip.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/Qt_Pro/stylesheel/stylesheel.pro</value>
     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.UniqueId"></value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -228,8 +228,8 @@
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\Qt_Pro\ToolTip\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/Qt_Pro/ToolTip/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\Qt_Pro\stylesheel\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/Qt_Pro/stylesheel/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
