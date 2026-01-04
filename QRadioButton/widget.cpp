@@ -1,5 +1,6 @@
 #include "widget.h"
 #include "ui_widget.h"
+#include"QButtonGroup"
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
@@ -13,7 +14,19 @@ Widget::Widget(QWidget *parent)
     // ui->radioButton_LGBT->setCheckable(false);
     // ui->radioButton_LGBT->setEnabled(true);
     //使用这个就可以完全实现禁止使用选项
-    ui->radioButton_LGBT->setEnabled(false);
+    ui->radioButton_LGBT->setEnabled(true);
+
+    //Radiobutton是默认排差的
+    //进行分组可以有效避免排差
+    QButtonGroup* group1=new  QButtonGroup(this);
+    QButtonGroup* group2=new  QButtonGroup(this);
+
+    group1->addButton(ui->radioButton_male);
+    group1->addButton(ui->radioButton_female);
+    group1->addButton(ui->radioButton_LGBT);
+
+    group2->addButton(ui->radioButton_han);
+    group2->addButton(ui->radioButton_other);
 }
 
 Widget::~Widget()
@@ -37,5 +50,17 @@ void Widget::on_radioButton_female_clicked()
 void Widget::on_radioButton_LGBT_clicked()
 {
      ui->label->setText("您选择的性别为：LGBT");
+}
+
+
+void Widget::on_radioButton_han_clicked()
+{
+    ui->label_2->setText("您选择的籍贯为：汉族");
+}
+
+
+void Widget::on_radioButton_other_clicked()
+{
+    ui->label_2->setText("您选择的性别为：其他少数名族");
 }
 

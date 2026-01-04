@@ -24,6 +24,9 @@ public:
     QRadioButton *radioButton_female;
     QRadioButton *radioButton_LGBT;
     QLabel *label;
+    QLabel *label_2;
+    QRadioButton *radioButton_han;
+    QRadioButton *radioButton_other;
 
     void setupUi(QWidget *Widget)
     {
@@ -38,10 +41,19 @@ public:
         radioButton_female->setGeometry(QRect(290, 200, 119, 24));
         radioButton_LGBT = new QRadioButton(Widget);
         radioButton_LGBT->setObjectName("radioButton_LGBT");
-        radioButton_LGBT->setGeometry(QRect(290, 260, 119, 24));
+        radioButton_LGBT->setGeometry(QRect(290, 250, 119, 24));
         label = new QLabel(Widget);
         label->setObjectName("label");
         label->setGeometry(QRect(290, 90, 141, 19));
+        label_2 = new QLabel(Widget);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(510, 90, 171, 19));
+        radioButton_han = new QRadioButton(Widget);
+        radioButton_han->setObjectName("radioButton_han");
+        radioButton_han->setGeometry(QRect(510, 150, 119, 24));
+        radioButton_other = new QRadioButton(Widget);
+        radioButton_other->setObjectName("radioButton_other");
+        radioButton_other->setGeometry(QRect(510, 200, 119, 24));
 
         retranslateUi(Widget);
 
@@ -55,6 +67,9 @@ public:
         radioButton_female->setText(QCoreApplication::translate("Widget", "\345\245\263", nullptr));
         radioButton_LGBT->setText(QCoreApplication::translate("Widget", "LGBT", nullptr));
         label->setText(QCoreApplication::translate("Widget", "\346\202\250\351\200\211\346\213\251\347\232\204\346\200\247\345\210\253\344\270\272\357\274\232", nullptr));
+        label_2->setText(QCoreApplication::translate("Widget", "\346\202\250\351\200\211\346\213\251\347\232\204\347\261\215\350\264\257\344\270\272\357\274\232", nullptr));
+        radioButton_han->setText(QCoreApplication::translate("Widget", "\346\261\211", nullptr));
+        radioButton_other->setText(QCoreApplication::translate("Widget", "\345\205\266\344\273\226\345\260\221\346\225\260\345\220\215\346\227\217", nullptr));
     } // retranslateUi
 
 };

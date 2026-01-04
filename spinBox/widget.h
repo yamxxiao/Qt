@@ -17,17 +17,6 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
-private slots:
-    void on_radioButton_male_clicked();
-
-    void on_radioButton_female_clicked();
-
-    void on_radioButton_LGBT_clicked();
-
-    void on_radioButton_han_clicked();
-
-    void on_radioButton_other_clicked();
-
 private:
     Ui::Widget *ui;
 };
