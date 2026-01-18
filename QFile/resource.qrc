@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../../C:/Users/ROG/Desktop/notebook.png</file>
+        <file>notebook.png</file>
+    </qresource>
+</RCC>

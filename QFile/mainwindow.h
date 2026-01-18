@@ -1,7 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include"QPlainTextEdit"
 #include <QMainWindow>
+#include"QMenuBar"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,13 +17,12 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
-private slots:
-    void on_pushButton_clicked();
-
-    void on_pushButton_2_clicked();
-
+    void openFile();
+    void saveFile();
 private:
     Ui::MainWindow *ui;
+    QMenuBar* menubar;
+    QPlainTextEdit* edit;
 };
+
 #endif // MAINWINDOW_H
